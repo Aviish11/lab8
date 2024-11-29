@@ -26,3 +26,8 @@ const {fname, courses} = student;
 console.log(fname);
 console.log(courses);
 
+const scores = [85, 92, 78, 90];
+
+const [first, second] = scores;
+console.log("First Score:", first);
+console.log("Second Score:", second);
