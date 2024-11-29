@@ -1,16 +1,16 @@
 const student = {
-    name: "Avish",
+    fname: "Avish",
     age: 26,
     enrolled: true,
     courses: ["WebDev", "Algo", "JavaScript"],
 
     displayInfo: function() {
-        console.log(`Name: ${this.name}, Age: ${this.age}, Courses: ${this.courses}`);
+        console.log(`Name: ${this.fname}, Age: ${this.age}, Courses: ${this.courses}`);
         
     }
 };
 
-console.log("Name:", student.name);
+console.log("Name:", student.fname);
 console.log("Age:", student.age);
 
 student.displayInfo();
@@ -20,4 +20,9 @@ console.log(jsonString);
 
 let jsonObj = JSON.parse(jsonString);
 console.log(jsonObj);
+
+const {fname, courses} = student;
+
+console.log(fname);
+console.log(courses);
 
