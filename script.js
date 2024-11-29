@@ -14,3 +14,6 @@ console.log("Name:", student.name);
 console.log("Age:", student.age);
 
 student.displayInfo();
+
+let jsonString = JSON.stringify(student);
+console.log(jsonString);
