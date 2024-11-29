@@ -6,6 +6,16 @@ const student = {
 
     displayInfo: function() {
         console.log(`Name: ${this.fname}, Age: ${this.age}, Courses: ${this.courses}`);
+    
+        
+    },
+
+    addCourse: function(course){
+        this.courses.push(course);
+    },
+
+    numOfCourses: function(){
+        console.log(this.courses.length);
         
     }
 };
@@ -41,4 +51,11 @@ console.log(clonedStudent.graduationYear);
 const newCourse = ["GNED" , "Operating Systems"];
 let combinedCourses = [...student.courses, ...newCourse];
 console.log(combinedCourses);
+
+
+student.numOfCourses();
+student.addCourse("English");
+console.log(student.courses);
+student.numOfCourses();
+
 
