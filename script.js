@@ -17,3 +17,7 @@ student.displayInfo();
 
 let jsonString = JSON.stringify(student);
 console.log(jsonString);
+
+let jsonObj = JSON.parse(jsonString);
+console.log(jsonObj);
+
