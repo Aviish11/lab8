@@ -38,3 +38,7 @@ console.log(clonedStudent);
 clonedStudent.graduationYear = 2026;
 console.log(clonedStudent.graduationYear);
 
+const newCourse = ["GNED" , "Operating Systems"];
+let combinedCourses = [...student.courses, ...newCourse];
+console.log(combinedCourses);
+
