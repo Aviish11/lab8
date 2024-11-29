@@ -8,3 +8,6 @@ const student = {
         return `Student Name: ${this.name}, Age: ${this.age}, Courses: ${this.courses}`;
     }
 };
+
+console.log("Name:", student.name);
+console.log("Age:", student.age);
